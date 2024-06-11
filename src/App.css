@@ -1,0 +1,78 @@
+.center{
+    width: 640px;
+    margin: 100px auto;
+    perspective: 1000px;
+    width: 50%;
+    height: 400px;
+    background-color: #69806d;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.caixa input{
+    padding: 0.8em 1.8em;
+	border-radius: 8px;
+	background-color: transparent;
+	color:#000000;
+    border:2px solid #000000;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.caixa ::placeholder {
+    color: #000000;
+}
+
+.caixa button{
+    padding: 0.8em 1.8em;
+	border-radius: 8px;
+	background-color: transparent;
+	color:#000000;
+	border:2px solid #000000;
+	font-size: 12px;
+	cursor: pointer;
+	z-index: 1;
+	transition: 0.3s;
+	overflow:hidden ;
+	position: relative;
+}
+
+.tarefa-buttons{
+    justify-content: space-between;
+
+}
+
+.concluir{
+    padding: 0.8em 1.8em;
+	border-radius: 8px;
+	background-color: transparent;
+	color:#000000;
+	border:2px solid #000000;
+	font-size: 10px;
+	z-index: 1;
+	overflow:hidden ;
+	position: relative;
+}
+
+.excluir{
+    padding: 0.8em 1.8em;
+	border-radius: 8px;
+	background-color: transparent;
+	color:#000000;
+	border:2px solid #000000;
+	font-size: 10px;
+	z-index: 1;
+	overflow:hidden ;
+	position: relative;
+}
+
+
